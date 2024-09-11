@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/register/registro.css" />
+    <title>Lazarus Wine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-title">
+        <h1 class="title">Lazarus wine</h1>
+      </div>
+      <div class="social-network-icons">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/facebook.png" alt="facebook link">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/instagram.png" alt="instagram link">
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/twitter.png" alt="twitter link">
+        </a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="pilar"></div>
+      <div class="content">
+        <h2>Únete a nosotros</h2>
+        <fieldset>
+          <legend>Regístrate</legend>
+          <form action="/auth/register" method="post">
+            <div class="field">
+              <label class="field-label" for="username">Crear Usuario</label>
+              <input class="field-input" type="text" name="username" id="username" required />
+            </div>
+            <div class="field">
+              <label class="field-label" for="password">Crear Contraseña</label>
+              <input class="field-input" type="password" name="password" id="password" required />
+            </div>
+            <div class="button-container">
+              <button type="submit">Regístrate</button>
+            </div>
+          </form>
+        </fieldset>
+        <div class="alternative-option">
+          <p>¿Ya tienes una cuenta? </p><a href="../login/login.html"><button>Iniciar Sesión</button></a>
+        </div>
+      </div>
+      <div class="pilar"></div>
+    </div>
+  </body>
+</html>

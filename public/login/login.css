@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-title {
+  height: 100%;
+  background-color: #4a0f2b;
+  width: 130px;
+  color: white;
+  align-items: center;
+}
+
+.social-network-icons {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.social-network-icons img {
+  width: 30px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.title {
+  padding-left: 15px;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-size: 30px;
+  padding: 0;
+  padding-left: 12px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+.main {
+  display: flex;
+}
+
+.content {
+  min-width: 450px;
+  background-color: #191919;
+}
+
+h1 {
+  padding-top: 1vh;
+  font-size: medium;
+  font-family: sans-serif;
+}
+
+h2 {
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+  color: white;
+  font-family: sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+fieldset {
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: none;
+}
+
+legend {
+  font-size: large;
+  font-weight: bold;
+}
+
+.field {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.field-label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.password-field{
+  display: flex;
+}
+
+.field-input {
+  padding: 5px;
+  color: white;
+  background-color: transparent;
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  box-sizing: border-box;
+}
+
+.password-field {
+  width: 95%;
+}
+
+/* Estilo específico para el botón "view password" */
+.view-password {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+/* Desactivar efecto hover para el botón "view password" */
+.view-password:hover {
+  background-color: transparent; /* Sin cambio de color */
+  color: inherit; /* Mantiene el color actual */
+  border: none; /* Sin borde */
+}
+
+.view-password-img{
+  height: 20px;
+  width: 20px;
+}
+
+.alternative-option {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.button-container {
+  text-align: center;
+  padding-top: 30px;
+}
+
+button {
+  margin-top: 5px;
+  color: white;
+  border: none;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.pilar {
+  width: 33vw;
+  height: 95vh;
+  background-color: black;
+}

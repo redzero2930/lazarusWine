@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-title">
+        <h1 class="title">Lazarus wine</h1>
+      </div>
+      <div class="social-network-icons">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/facebook.png" alt="facebook link">
+        </a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/instagram.png" alt="instagram link">
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src="../images/twitter.png" alt="twitter link">
+        </a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="pilar"></div>
+      <div class="content">
+        <h2>Inicia Sesión</h2>
+        <fieldset>
+          <legend>Iniciar Sesión</legend>
+          <form action="/auth/login" method="post">
+            <div class="field">
+              <label class="field-label" for="username">Usuario</label>
+              <input class="field-input" type="text" name="username" id="username" required />
+            </div>
+            <div class="field">
+              <label class="field-label" for="password">Contraseña</label>
+              <div class="password-field">
+                <input class="field-input" type="password" name="password" id="password" required />
+                <button class="view-password" type="button" id="toggle-password">
+                  <img class="view-password-img" src="../images/eye-closed.png" alt="eye icon" class="icon">
+                </button>
+              </div>
+            </div>
+            <div class="button-container">
+              <button type="submit">Iniciar Sesión</button>
+            </div>
+          </form>
+        </fieldset>
+        <div class="alternative-option">
+          <p>¿Aún no tienes una cuenta con nosotros?</p><a href="../register/registro.html"><button>Registrarse</button></a>
+        </div>
+      </div>
+      <div class="pilar"></div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
