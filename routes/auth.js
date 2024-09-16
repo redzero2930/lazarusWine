@@ -77,7 +77,7 @@ router.post('/register', async (req, res) => {
               console.error('Database query error:', err);
               return res.status(500).send('Internal server error');
           }
-          res.redirect('/auth/login');
+          res.redirect('/login/login.html');
       });
   });
 });
